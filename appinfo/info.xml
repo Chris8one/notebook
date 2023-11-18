@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Chris Larsson <chris_larsson@outlook.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>notebook</id>
+    <name>Note Book</name>
+    <summary>Top Secret</summary>
+    <description><![CDATA[Hemligstämplat material]]></description>
+    <version>1.1.1</version>
+    <licence>agpl</licence>
+    <author mail="chris_larsson@outlook.com" >Chris Larsson</author>
+    <namespace>NoteBook</namespace>
+    <category>integration</category>
+    <bugs>http://www.fel.nu</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Note Book</name>
+            <route>notebook.page.index</route>
+        </navigation>
+    </navigations>
+</info>
